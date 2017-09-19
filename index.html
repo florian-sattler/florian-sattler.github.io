@@ -1,1 +1,74 @@
-Hello World
+<html>
+    <head>
+        <title>Florian Sattler - info@florian-sattler.de</title>
+        <link href='//fonts.googleapis.com/css?family=Open Sans:100,300' rel='stylesheet' type='text/css'>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <style>
+            /*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+            body {
+                color: #fff;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 100;
+                padding:0;
+                margin:0;
+            }
+            body::before {
+                content: "";
+                display: block;
+                position: fixed;
+                z-index: -1;
+                width: 100%;
+                height: 100%;
+                opacity: .8;
+            }
+            #card {
+                width:800px;
+                position:absolute;
+                left:50%;
+                top:50%;
+                margin:-280px 0 0 -400px;
+                padding: 170px 0 180px 0;
+                background:rgba(255, 255, 255, 0.25);
+                background-size: 20px 20px;
+                -webkit-box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.25);
+                -moz-box-shadow:    5px 5px 10px 0px rgba(50, 50, 50, 0.25);
+                box-shadow:         5px 5px 10px 0px rgba(50, 50, 50, 0.25);
+            }
+            h1 {
+                margin:0;
+                padding:0;
+                line-height: 52px;
+                margin-bottom:5px!important;
+                size:60px;
+                font-weight: 300;
+            }
+            #infos {
+                display: inline-block;
+                opacity: .7;
+                font-size: 24px;
+                margin-left: -15px;
+                padding: 5px 50px 38px 50px;
+                width:650px;
+            }
+            #badge {
+                top: -20px;
+                left: -50px;
+                position: relative;
+            }
+            body.layout::before {background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAA+gCAIAAAHDeNHqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkY3MzcwRTM5NDQwODExRTQ5RDVFODYzQ0U3NUM0MkUzIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkY3MzcwRTNBNDQwODExRTQ5RDVFODYzQ0U3NUM0MkUzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RjczNzBFMzc0NDA4MTFFNDlENUU4NjNDRTc1QzQyRTMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RjczNzBFMzg0NDA4MTFFNDlENUU4NjNDRTc1QzQyRTMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/lIQSAAAERklEQVR42uxUSxJDIQgj3v9SXXfb+6TyE3F6gHbqglEDJhF9Tx7P1xBgQGSIcAYG54iJCRWbAR+9RqxGMZC1V2uoOFcNUPWYnFSOhjkn4XmoNlLHsdQq/eBl+vJ18ybdF8IXLBdY+t09ITXFzx+cOcexrr09Lzi8HnM788nzgXvnL57iXueMfmQfGDms3kV/AdOt2u2uo9e9LzQuuzvVOd6De/E93N/Ctwa79xs/Htt9sv2fbtz4y+/9LQC7ZZADIAgDwa7//5R3j/4HI5R22/oBCQcSI1oWUGbkvO7IQT2jpbApcr2Jn93MZCkscXYL9xu3JquUB40ZnMa3PIh1+z1n//CCkQHmGKi8Dcx3PzBmgvvy+/C1svqcQdL1lwdQnc5EfSbk8azZaewM63M9ihu4u0AZTn7U2GF4byjfu3aHepsgrMXcr/nPDF9DHX+3n7f4Xey5L5ZnO+5K7RGAHXPbYRCGYWj6/x/tiUuI7UY8Toz1oRISjK5N6LFNPFemC7c3DjDvUB4W5DfFOyajoXxF+nD2pCd3AGUdawOc/XzxE0O0xHEvKgPAaLyk5gUbj3aGBih3gDAdye7dfzLvT+8qbOxYRmsQttPveL9cT4Syvd5pc6KuIRrL68JnQmUW8DmnnvBcRD16WPbAe6xzqaaoWvGzYXtQ9T00ROlFiL7ErMn8f5KmDMooVO8N7Qk+R01rpbZh3Xg939Sk1s3fWs2NcVdvTPmN7E3oOzMrGzcM6GtaeZB8k7A123nBexSW17TnAzDVO3sWbd+vscYDddjq078dj8gFf6L/3ukLVy78xuz2i72K0oSLIWtY/30EaNcMdiQGYRia/P9HezUtNI5JuveZHNBKq04LIQH8jN3++X/Pq273Ym3CqS9gSXPd/ise/aZ6ttb6TV9ccpzY96XVgNWXYAP3syDdKv4AfZu1MVh7IjztizWUejU87MSwhYP3sQ5mgMS483jTc51+buqevQPQOD39TvUyaK5IY5djinibeAuq0RND2fHeGhYo3ht6GotrbH/m0dowYREU20+OQPRooY39uU9iWZunefTgUDte69tQLgLxOpgBpbsJZ72BGA+Pt5tXpHdzrHEynq7eXPJN8xyZOaXv+91Hrmm3t1zc2p7ixDmRuN0ZI+YKUaNVDWTvCAXjSiySeQ6xqGc8wub4/+hY1/IVsXPM/eQXxBtNGNbbeVDnP90vAOeiiV/WzPsx51WOqo+46oY9PlTsaXuvO14rLuSPpj2mOMvwfvHGmy6m57R2KS+s1iWqee47jph50Zf4Ho/NSu+6iEW6m4Xg4u7L/8z81dL9t2I+ec25uHR4xNjvdM336u/LemG0h6DbE1DywmCkcWfrmBcZy/ac29wv10I9kyDv+VBuGnHBwXjnLPlb3uHM+7S5FzZtcmqY+7Th+9OmTU192x7W6cfJl9mj53wxbdo03Tunpn/yDPMH8ZPdcBLBACMAAAAASUVORK5CYII=')}
+
+            .layout #infos { background: #758286; }
+            .layout #badge {background:no-repeat url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAFM0aXcAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkZGMzhEMjg2NDU3RjExRTQ4NzEyQTEyMjRERjhFN0NGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkZGMzhEMjg3NDU3RjExRTQ4NzEyQTEyMjRERjhFN0NGIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkYzOEQyODQ0NTdGMTFFNDg3MTJBMTIyNERGOEU3Q0YiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RkYzOEQyODU0NTdGMTFFNDg3MTJBMTIyNERGOEU3Q0YiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7y4Q3dAAAArElEQVR42mL8//8/AxiAGKl5hf8BAogRQwQggMAMGAYJsIBk0/KLoOoYGAACCF1FPRNMAqiqHkg1MCFzQGzmZ+8/wTkgABBACHvRAEwXCy4JGJ8FlwQMgO3cvGPnASDbAZtVAAGE0w0gwIRLAhQSTLgksOpEDjsmXBIokugScElsEjC/4vQLQIDh9Sceb2KPB2I0YcQRKZqI0oxLE17NhDRh1UysJhTNpGqCAQBauGjQdd9stwAAAABJRU5ErkJggg==')}
+        </style>
+    </head>
+    <body class="layout">
+        <div id="card">
+            <div id="infos">
+                <div id="badge">&nbsp;</div>
+                <span style="display:none">5</span>
+                <h1>Florian Sattler</h1>
+                info@florian-sattler.de
+            </div>
+        </div>
+    </body>
+</html>
