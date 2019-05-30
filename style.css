@@ -1,0 +1,81 @@
+body {
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  font-family: 'Rokkitt', serif;
+  height: 100vh;
+}
+
+.text-outer-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-top: 0.5rem solid #fff;
+  border-bottom: 0.5rem solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36rem;
+  height: 24rem;
+  text-align: center;
+  display: table;
+}
+
+.text-inner-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text-title {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.text-subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.text-content {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+img {
+  margin: 1rem;
+  height: 2.25rem;
+}
+
+@media (max-width: 600px), (max-height: 400px) {
+  .text-outer-container {
+    width: 24rem;
+    height: 16rem;
+  }
+
+  .text-title {
+    font-size: 3.5rem;
+  }
+
+  .text-subtitle {
+    font-size: 1.0rem;
+  }
+  .text-content {
+    margin-top: 1rem;
+  }
+}
+
+footer {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.5rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.25);;
+  text-align: center;
+}
+</style>
