@@ -3,7 +3,10 @@ body {
   background-size: cover;
   overflow: hidden;
   font-family: 'Rokkitt', serif;
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-outer-container {
@@ -11,10 +14,6 @@ body {
   color: white;
   border-top: 0.5rem solid #fff;
   border-bottom: 0.5rem solid #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 36rem;
   height: 24rem;
   text-align: center;
@@ -53,11 +52,9 @@ img {
     width: 24rem;
     height: 16rem;
   }
-
   .text-title {
     font-size: 3.5rem;
   }
-
   .text-subtitle {
     font-size: 1.0rem;
   }
@@ -75,10 +72,15 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-  color: rgba(255, 255, 255, 0.25);;
+  color: rgba(255, 255, 255, 0.25);
   text-align: center;
 }
 
-a {
-  color: rgba(255, 255, 255, 0.25);;
+.text-content>a {
+  color: rgba(255, 255, 255, 1);
+  margin: 0 .5rem;
+}
+
+footer>a {
+  color: rgba(255, 255, 255, 0.25);
 }
