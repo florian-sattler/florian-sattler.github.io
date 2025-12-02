@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Florian Sattler</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link href="fonts/rokkitt.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Florian Sattler</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link href="fonts/rokkitt.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/all.min.css" />
-</head>
-
-<body>
-  <main class="text-outer-container">
-    <div class="text-inner-container">
-      <div class="text-title">Florian Sattler</div>
-      <div class="text-subtitle">
-        M.Sc. Computervisualistik &ndash;
-        Machine Learning Expert
+  <body>
+    <main class="text-outer-container">
+      <div class="text-inner-container">
+        <div class="text-title">Florian Sattler</div>
+        <div class="text-subtitle">
+          M.Sc. Computervisualistik &ndash; Machine Learning Expert
+        </div>
+        <div class="text-content" style="font-size: 3em">
+          <a href="https://www.linkedin.com/in/florian-sattler-3b12811b7/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.xing.com/profile/Florian_Sattler12/cv"
+            ><i class="fab fa-xing"></i
+          ></a>
+          <a href="mailto:info@florian-sattler.de"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
       </div>
-      <div class="text-content" style="font-size: 3em;">
-        <a href="https://www.linkedin.com/in/florian-sattler-3b12811b7/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.xing.com/profile/Florian_Sattler12/cv"><i class="fab fa-xing"></i></a>
-        <a href="mailto:info@florian-sattler.de"><i class="fas fa-envelope"></i></a>
-      </div>
-    </div>
-  </main>
+    </main>
 
-  <footer>&copy; 2019-2020 Florian Sattler &ndash; Icons: <a href="https://fontawesome.com/license">Font Awesome</a> &ndash; Background: <a href="https://www.pexels.com/photo/forest-mountains-fog-clouds-9754/">Creative Vix</a></footer>
-</body>
+    <footer>
+      &copy; 2019-2025 Florian Sattler &ndash; Icons:
+      <a href="https://fontawesome.com/license">Font Awesome</a> &ndash;
+      Background:
+      <a href="https://www.pexels.com/photo/forest-hills-in-fog-18736324/"
+        >M.Emin BİLİR from Pexels</a
+      >
+    </footer>
 
-
+    <script>
+      (() => {
+        const img = new Image();
+        img.onload = () => {
+          document.body.style.backgroundImage = `url(${img.src})`;
+          document.body.classList.add("loaded");
+        };
+        img.src = "background-wq.webp";
+      })();
+    </script>
+  </body>
 </html>
